@@ -29,7 +29,17 @@ Inspeção visual: capturas completas de 1440/390 px e recortes em resolução o
 
 HTML semântico, headings, landmarks, alt contextual, foco contrastante, link para pular, botões reais, details/summary nativo, `aria-expanded` sincronizado, movimento reduzido e funcionamento sem JS. Contraste das cores de texto principais atende razão 4,5:1; não se afirma auditoria WCAG completa. Não foi realizado teste com leitor de tela. Não há métricas Lighthouse afirmadas sem medição. Sem analytics ou embeds de terceiros.
 
-## Público: PENDING
+## Público: PASS
 
-Login oficial confirmado na conta `gabi0102souza-stack`. Publicação em andamento usando a raiz de `main`. A URL de produção será testada após deploy, incluindo fonte, CSS, JavaScript, assets e links em desktop/mobile.
+URL real: https://gabi0102souza-stack.github.io/gourmet-avenida-preview/
+Repositório: https://github.com/gabi0102souza-stack/gourmet-avenida-preview
+Conta autenticada: `gabi0102souza-stack`; branch `main`; origem Pages: raiz `/`, com `.nojekyll`.
+Primeiro deploy: `pages-build-deployment`, execução 37694814160, concluída com sucesso.
 
+A suíte foi executada novamente contra HTTPS público, não localhost. PASS em 360×844, 390×844, 768×844 e 1440×1000: HTTP 200, assets sem erros HTTP, todas as imagens carregadas, fontes do sistema disponíveis, nenhum erro de JavaScript, sem rolagem lateral, links internos válidos, menu/FAQ funcionais, teclado, noindex/nofollow, navegação sem JavaScript e texto 200% em 390 px. `fontes.html` também respondeu HTTP 200. Capturas públicas ficam em `.qa/public-{360,390,768,1440}.png` e os resultados em `.qa/public-results.json`.
+
+Maps, Instagram e Restaurant Guru responderam HTTP 200 na verificação dos destinos; redes sociais podem solicitar login. Os protocolos de telefone e e-mail estão corretos, sem realizar ligação ou enviar mensagem. Não há botão de delivery não verificado.
+
+Inspeção visual das capturas públicas de desktop/mobile e conferência de CSS/JS/HTML contra os arquivos locais. A atualização final desta documentação não altera a página ou seus assets.
+
+Contrastes medidos: texto principal/fundo 14,67:1; texto secundário/fundo 6,17:1; branco/vermelho 7,10:1; vermelho/faixa clara 6,14:1.

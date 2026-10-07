@@ -16,4 +16,5 @@ A página Menu World merece confirmação do proprietário: existe, porém não 
 
 ## QA e limites de validação
 
-Testes locais funcionais passaram nas quatro larguras e com texto 200%. Inspeção visual foi feita em capturas de desktop/mobile. Não se afirma auditoria WCAG completa nem Lighthouse sem medição. Redes sociais podem exigir login; telefonema/e-mail não foram enviados. Publicação só fica concluída após autenticação, deploy e teste da URL real.
+Testes locais funcionais passaram nas quatro larguras e com texto 200%. Inspeção visual foi feita em capturas de desktop/mobile. Não se afirma auditoria WCAG completa nem Lighthouse sem medição. Redes sociais podem exigir login; telefonema/e-mail não foram enviados. Publicação concluída na conta autenticada `gabi0102souza-stack`: https://gabi0102souza-stack.github.io/gourmet-avenida-preview/. A URL real passou no QA das quatro larguras, com CSS, JS, fotos, links internos, teclado, navegação sem JS e texto 200%.
+

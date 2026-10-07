@@ -6,7 +6,9 @@ Website estático para uma apresentação comercial. Não contratado ou aprovado
 
 - Prévia local: http://127.0.0.1:4186/
 - Destino solicitado: GitHub Pages, conta autenticada `gabi0102souza-stack`, repositório sugerido `gourmet-avenida-preview`, branch `main`.
-- Publicação: em andamento. A URL pública será registrada depois do deploy e do teste real.
+- Site público: https://gabi0102souza-stack.github.io/gourmet-avenida-preview/
+- Repositório: https://github.com/gabi0102souza-stack/gourmet-avenida-preview
+- Publicação: GitHub Pages ativo e QA público aprovado em 360, 390, 768 e 1440 px.
 
 ## Executar
 
@@ -54,4 +56,5 @@ As imagens já estão otimizadas e versionadas. `scripts/optimize-images.cjs` é
 ## Publicação
 
 O GitHub Pages publica os arquivos estáticos da raiz da branch `main`, com `.nojekyll`. O próprio GitHub executa o deploy, sem workflow personalizado ou dependências de build. A documentação está versionada no repositório público; pesquisa bruta, ferramentas, originais e capturas de QA ficam ignorados. Não há segredos no código. A página inclui `noindex, nofollow`, fontes do sistema e aviso de conceito independente. O script `build.cjs` permanece disponível para gerar um pacote isolado quando necessário.
+
 
