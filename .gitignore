@@ -1,0 +1,7 @@
+.tools/
+.qa/
+.build/
+assets/research/
+node_modules/
+*.log
+.github/workflows/pages.yml
